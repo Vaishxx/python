@@ -1,0 +1,8 @@
+#Q.9)Program to create a dictionary,where keys are no. and values are their cubes,entering last no. through user input.
+num = int(input("Last no of the series: "))
+DictOfCube = dict()
+for i in range (1,num + 1,):
+    DictOfCube[i] = i**3
+print(DictOfCube)
+
+
